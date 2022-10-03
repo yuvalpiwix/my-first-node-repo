@@ -43,10 +43,10 @@ rl.question("Hey there, what is your name? ", (name) => {
 });
 
 const fs = require("fs");
-const content = "Hello World";
+const content = "Hello There";
 
 fs.writeFile(
-  "/Users/yuvalpi/vscode-projects/myFirstNodeProject/file.text",
+  "/Users/yuvalpi/vscode-projects/my-first-node-repo/myFirstNodeProject/file.text",
   content,
   (err) => {
     if (err) {
